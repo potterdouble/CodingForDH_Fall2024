@@ -1,8 +1,95 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CodingForDHNotes</title>
+<meta charset="utf-8">
+<meta name="viewport" content:"width-device-width, initial-scale=1">
+<style>
+  * { 
+    box-sizing: border-box;
+  }
+
+ /*Not entirely sure what this does */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+ /*defines the header style*/
+  header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+
+ /*defines the style of the nav panel */
+  nav {
+    float: left;
+    width: 30%;
+    background: #ccc;
+    padding: 20px;
+  }
+
+ /*defines the navigation ui style */
+  nav ul {
+    list-style-type: none;
+    padding: o;
+  }
+
+ /*defines the style of the article*/
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+  }
+
+/* I don't really know what this does */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ /*defines the style of the footer */
+footer {
+ background-color: #777;
+ padding: 10px;
+ text-align: center;
+ color: white;
+}
+
+/* defines the responsive layout parameters */ 
+@media (max-width: 600px) {
+ nav, article {
+  width: 100%;
+  height: auto;
+  }
+ }
+
+ img {
+ width: 100%;
+ height: auto;
+ max-width: 1999px;
+}
+ 
+</style>
+</head>
 
 <body>
-  <h1> Coding For DH Workshop Notes</h1>
+  <h1 style="font-size:60px;"> Coding For DH Workshop Notes</h1>
   <p>Location to store notes for the 2024 Fall Coding for DH Workshop</p>
+
+<section>
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="WorkshopNotes.md">Week 1</a></li>
+  </ul>
+</nav>
+  
+</section>
   
 </body>
   
