@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CodingForDHNotes Week 2</title>
+<meta charset="utf-8">
+<meta name="viewport" content:"width-device-width, initial-scale=1">
+<style>
+  * { 
+    box-sizing: border-box;
+  }
+
+ /*Not entirely sure what this does */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+ /*defines the header style*/
+  header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+
+ /*defines the style of the nav panel */
+  nav {
+    float: left;
+    width: 30%;
+    background: #ccc;
+    padding: 20px;
+  }
+
+ /*defines the navigation ui style */
+  nav ul {
+    list-style-type: none;
+    padding: o;
+  }
+
+ /*defines the style of the article*/
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+  }
+
+/* I don't really know what this does */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ /*defines the style of the footer */
+footer {
+ background-color: #777;
+ padding: 10px;
+ text-align: center;
+ color: white;
+}
+
+/* defines the responsive layout parameters */ 
+@media (max-width: 600px) {
+ nav, article {
+  width: 100%;
+  height: auto;
+  }
+ }
+
+ img {
+ width: 100%;
+ height: auto;
+ max-width: 1999px;
+}
+
+ md-block {
+  white-space: pre;
+  font-family: monospace;
+ }
+
+</style>
+</head>
+
+<header>
+  <h1 style="font-size:60px;"> Notes for Week 2</h1>
+</header>
+ 
+<section>
+ <nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="WorkshopNotes.md">Week 2: Basic Computational Tools</a></li>
+    <li><a href="WorkshopNotes_Week3.md">Week 3: Python Fundanmentals</a></li>
+  </ul>
+ </nav>
+<article>
+ <md-block>
+# Notes For Coding for Humanities Workshop
+### Nov. 11
+#### Markdown examples
+This workshop module focused on the basics of the command line, using markup formats (markdown) and submitting files with Git. 
+- Just for the purpose of examples, here is how to **bold** text, and here is how to _italicize_ text. 
+- Text can also be **_both_**.
+- Markdown can link websites like [like so.](https://dh-coding-docs.netlify.app)
+- It can also form 
+> a quote
+- Markdown can also have code inserted in text, or have a photo inserted by inserting the link by doing so:
+![Cat](https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+
+- Images can also be inserted by putting the photo in the same directory, and referencing it. 
+  - Like So:
+![Cat](CatPhoto-104827.jpg)
+
+#### Workshop Notes
+- Thus far, this has been review for me, though it has been rather helpful. 
+- We will also be learning to embed a video, which is more new to me. 
+  - Scratch that, we gave up on the html embed. 
+- Static sites can be very customized (and they're free!)
+  - These sites can work as an academic CV.
+- Learned to create a readme file in git using the command line. 
+Commands needed are 
+  - git commit add -A
+  - git commit -m "commit message"
+  - git push
+
+  
+ </md-block>
+ <script type="module" src="https://md-block.verou.me/md-block.js"></script>
+</article>
+ 
+</section>
+  
+</body>
+  
+</html>
