@@ -27,6 +27,7 @@ This workshop module focused on the basics of the command line, using markup for
 
 - Learned to create a readme file in git using the command line. 
 
-git commit add -A
-git commit -m "commit message"
-git push
+Commands needed are 
+  - git commit add -A
+  - git commit -m "commit message"
+  - git push
