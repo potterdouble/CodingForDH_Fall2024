@@ -1,5 +1,3 @@
-<!Doctype md>
-
 # Notes For Coding for Humanities Workshop
 
 ### Nov. 11
